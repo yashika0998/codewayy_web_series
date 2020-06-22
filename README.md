@@ -1,3 +1,4 @@
+**Notes by yashika**
 
 # HTML CONTENT
 
@@ -24,43 +25,41 @@
 
 # CSS Content 
 
-(please do add `<` in starting of every command)
-
 ## `Style` attribute for styling HTML element .
 
 ### Use `background-color` for background color
 
-+ body style="background-color:powderblue;"> </body> 
++ `<body style="background-color:powderblue;"> </body>` 
 
 ### Use `color` for text colors
 
-+ h1 style="color:blue;">This is a heading</h1>
++ `<h1 style="color:blue;">This is a heading</h1>`
 
 ### Use `font-family` for text fonts
 
-+ h1 style="font-family:verdana;">This is a heading</h1>
++ `<h1 style="font-family:verdana;">This is a heading</h1>`
 
 ### Use `font-size` for text sizes
 
-+ h1 style="font-size:300%;">This is a heading</h1>
++ `<h1 style="font-size:300%;">This is a heading</h1>`
 
 ### Use `text-align` for text alignment
 
-+ h1 style="text-align:center;">Centered Heading</h1>
++ `<h1 style="text-align:center;">Centered Heading</h1>`
 
 ### Border Color
 
-+ h1 style="border:2px solid Tomato;">Hello World</h1>
++ `<h1 style="border:2px solid Tomato;">Hello World</h1>`
 
 ### Color values
 
-+ h1 style="background-color:rgb(255, 99, 71);">...</h1>
++ `<h1 style="background-color:rgb(255, 99, 71);">...</h1>`
 
 ### HTML HEX Colors
 
 + A hexadecimal color is specified with: #RRGGBB
 
-	h1 style="background-color:#ee82ee;">#ee82ee</h1
+	`<h1 style="background-color:#ee82ee;">#ee82ee</h1`
 
 ### HSL Color Values
 
@@ -107,4 +106,4 @@ hsl(hue, saturation, lightness)
 22. cite - Defines the title of a work
 23. img-Defines an image.
 
-**See raw text to watch commands**
+
