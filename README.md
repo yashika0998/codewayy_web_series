@@ -4,6 +4,5 @@
 
 + List of task is included in different folder to reffer.
 
-+ All the animation, images used are stored in media.
-
++ All the animation, images used are stored in images.
 
