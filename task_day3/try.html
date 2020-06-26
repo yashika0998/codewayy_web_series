@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+	<meta charset="utf-8">
+	<title> Amazing </title>
+	<style>
+		body {background-color:white;
+			 }
+		h1   {
+				
+				color: green;
+				font-family: courier;
+				fontsize: 80px;
+			  }
+		h2 {
+			  border: 2px solid violet;
+			  background-color: rgba(0,168,122,0.8);
+			  font-family: didot;
+			  font-size: 50px;
+			  padding:80px;
+			  margin: 50px;
+			  }
+	</style>
+</head>
+<body>
+	<!-- button -->
+	<h1 style="border:2px solid blue;"> Click to register</h1>
+
+	<h2> Offer is for limited time <br>
+	 Register to grab your coupon code <br>
+	<button onclick="document.location='default.asp'">register</button>
+	</h2>
+	
+	<!-- image tag-->
+	<h3> Click Alert! </h3>
+	<img src="../images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+	<map name="workmap">
+	  <area shape="circle" coords="337,300,44" onclick="myFunction()">
+	</map>
+
+	<script>
+	function myFunction() {
+	  alert("You clicked the coffee cup!");
+	}
+	</script>
+	
+	<!-- how to add in background image-->
+	<h3> background Image </h3>
+	<p> A background image for div element </p>
+	<div style="../images/girl.jpg;"> 
+	You can specify background images<br>
+	for any visible HTML element.<br>
+	In this example, the background image<br>
+	is specified for a div element.<br>
+	By default, the background-image<br>
+	will repeat itself in the direction(s)<br>
+	where it is smaller than the element<br>
+	where it is specified. (Try resizing the<br>
+	browser window to see how the<br>
+	background image behaves.
+	</div>
+	
+	<!-- adding audio and video in web-->
+    <h1>Adding Video</h1>
+        <video src="../images/parinda1.mp4" width ="400" controls loop>
+        Your browser does not support the <code> video </code>
+        </video>
+    <br>
+		
+</body>
+</html>
