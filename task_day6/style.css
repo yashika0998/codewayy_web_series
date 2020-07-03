@@ -30,6 +30,10 @@ nav ul li{
 }
 nav ul li:hover{
     background-color:purple;
+    font-size: 20px;
+}
+nav ul li:active {
+    color: green;
 }
 nav ul li a{
     text-decoration: none;
