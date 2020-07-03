@@ -1,67 +1,49 @@
-body{
-    padding: 10px;
-    margin: 1%;
-}
+
 .navbar{
-    
-    background-image: url("https://tse3.mm.bing.net/th?id=OIP.6uhNzkZRNYe4x6i00lwJnQHaEA&pid=Api&P=0&w=290&h=158");
+    background-image: url("../images/frisbee2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 20px;
-    
+    padding:10px;
 }
-#navdetails{
-    color: white;
-    text-align: center;
-    
+#heading{
+    margin:10px 20px 50px;
+    padding: 0px 300px;
+    color:white;
+    font-style: oblique;
 }
-nav a{
-    color: black;
-    border: 2px solid #f0f0f0 ;
-    background-color: rgb(223, 221, 217);
+nav button{
+    font-style: oblique;
+    background-color: white;
+    opacity:0.7;
+    border:1px solid whitesmoke;
+    padding :13px 13px;
     margin-left: 180px;
-    display: inline-block;
-    justify-content: space-around;
-    padding: 10px 20px;
-    opacity: 60%;
-
+    margin-bottom: 30px;
+    
 }
-a:hover{
-    color: rgb(10, 10, 10);
-    background-color: rgb(253, 252, 250);
+button:hover{
+    opacity:1;
+    color:blue;
 }
-.left {
-	background-color: rgb(55, 130, 201);
-	width: 190px;
+.left{
+    background-color:rgb(9, 65, 4);
+    float:left;
+    width: 150px;
+    height:350px;
 	float:left;
     padding: 5% 1%;
 }
 .information{
+    margin-top: 20px;
     width: 75%;
     display: inline-block;
-    padding-left: 2%;
+    padding-left: 10px;
     
 }
-#infoheading{
-    color: rgb(10, 10, 10);
-}
-.right{
-    width: 75%;
-    display: inline-block;
-    padding-left: 2%;
-    
-}
-
-.left img{
-    width: 70%;
-    margin: 10%;
-    border: 1px solid rgb(5, 5, 5);
-
-}
-#mainhead{
-    color: rgb(3, 3, 201);
-}
-.tablerow th{
-    padding-right: 40px;
+img{
+    margin-left:15px;
+    width:120px;
+    length:120px;
+    border: 2px solid black;
 }
