@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: black;
+    color:white;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+img{
+    display:block;
+    width:100%;
+    height: 600px;
+}
+h1{
+    margin:0;
+    padding: 20px;
+    color:black;
+}
+h4{
+    color:black;
+}
+h2,h3{
+    margin:0;
+    padding: 20px;
+
+}
+p{
+    margin:0;
+    padding: 30px;
+}
+.button{
+    display:inline-block;
+    margin: 10px;
+    padding:10px 13px;
+    color: black;
+    border: 2px solid black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    margin: 5px 20px;
+}
+
+.button:hover{
+    background:silver;
+    color:black;
+    
+}
+
+/*work o showcase*/
+#showcase{
+    min-height: 350px;
+    color: white;
+    text-align: centre;
+}
+#showcase .bg-image{
+    position: absolute;
+    background: url(../images/disposable1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:350px;
+    z-index:-1;
+}
+#showcase h1{
+    padding-top:100px;
+    padding-bottom: 0px;
+}
+#section-a .content-wrap{
+    padding: 0 40px;
+}
+/* Section A*/
+#section-a{
+    background:rgb(93, 77, 59);
+    padding-bottom: 20px;
+}
+/* Section B*/
+#section-b{
+    padding: 100px 50px 50px;
+}
+#section-b ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;  
+}
+#section-b li{
+    margin-bottom: 100px;
+    background:burlywood;
+    color: black;
+}
+.card-content{
+    padding: 30px;
+}
+/* section C */
+#section-c{
+    background: white;
+    color:#333;
+    padding: 20px;
+
+}
+/* section D*/
+#section-d .box{
+    padding: 50px;
+    color:white;
+}
+#section-d .box:first-child{
+    background: grey;
+}
+
+main-footer{
+    padding: 50px;
+    color:white;
+    text-align: center;
+}
+
+@media (min-width: 708px)
+{
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr repeat(2,minmax(auto,25em)) 1fr;
+    }
+    #section-a .content-text {
+        columns: 2;
+        column-gap: 2em;
+    }
+    #section-a .content-text p {
+        padding-top: 0;
+    }
+    .content-wrap,
+    #section-b ul{
+        grid-column: 2/4;
+    }
+    .box, #main-footer div{
+        grid-column: span 2;
+    }
+    #section-b ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #section-b li{
+        width: 30%;
+
+    }
+}
